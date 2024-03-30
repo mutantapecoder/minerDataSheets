@@ -1,3 +1,5 @@
 # Miner Data for Google Sheets
 
-### run in root and use installScript.sh to get started. 
+#### run `git clone https://github.com/mutantapecoder/minerDataSheets.git` in root of VM
+
+#### use installScript.sh to get started. 
