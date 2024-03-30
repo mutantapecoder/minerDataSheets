@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make the script executable
-chmod +x "$0"
+# chmod +x "$0"
 
 # Install required Python packages
 pip install apscheduler
