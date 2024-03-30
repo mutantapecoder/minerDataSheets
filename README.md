@@ -2,4 +2,4 @@
 
 #### run `git clone https://github.com/mutantapecoder/minerDataSheets.git` in root of VM
 
-#### use installScript.sh to get started. 
+#### `chmod u+x installScript.sh` and run installScript.sh to get started. 
