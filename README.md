@@ -1,5 +1,17 @@
 # Miner Data for Google Sheets
 
+### Prerequsite steps:
+
+- google console setup with api access to google drive api and google sheets api
+
+* create api key and save locally
+
+- shared google service account email with spreadsheet
+
+* upload the api key to remote machine in root directory
+
+### Install Steps:
+
 - run `git clone https://github.com/mutantapecoder/minerDataSheets.git` in root of VM
 
 - cd into minerDataSheets folder
