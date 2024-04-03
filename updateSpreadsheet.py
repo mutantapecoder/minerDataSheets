@@ -44,9 +44,9 @@ def write_to_sheet():
         timestamp, stake, incentive, trust = extract_data(latest_log)
         sheet.append_row([timestamp, stake, incentive, trust])
 
-# Schedule the job to run every hour
+# Schedule the job to run every hour, at 20 past the hour
 scheduler = BlockingScheduler()
-scheduler.add_job(write_to_sheet, 'cron', hour='*')
+scheduler.add_job(write_to_sheet, 'cron', minute=20, hour='*')
 scheduler.start()
 
 #write_to_sheet()
